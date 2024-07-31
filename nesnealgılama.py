@@ -1,3 +1,6 @@
+#author=hazarbilgin
+
+
 """
 Title: Object Detection with RetinaNet
 Author: [Srihari Humbarwadi](https://twitter.com/srihari_rh)
@@ -6,7 +9,7 @@ Last modified: 2023/07/10
 Description: Implementing RetinaNet: Focal Loss for Dense Object Detection.
 Accelerator: GPU
 """
-
+#author=hazarbilgin
 """
 ## Introduction
 
@@ -974,6 +977,7 @@ for sample in val_dataset.take(2):
         class_names,
         detections.nmsed_scores[0][:num_detections],
     )
+#author=hazarbilgin
 
 """
 Example available on HuggingFace.
